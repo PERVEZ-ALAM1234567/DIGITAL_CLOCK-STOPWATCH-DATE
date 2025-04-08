@@ -1,0 +1,57 @@
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* DIGITAL CLOCK */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+  
+.clock {
+    font-size: 3rem;
+    font-weight: bold;
+    background: #444;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+
+
+/* STOPWATCH */
+
+.stopwatch {
+    margin-top: 20px;
+    text-align: center;
+}
+  
+.stopwatch button {
+    margin: 5px;
+    padding: 10px 20px;
+    background: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.stopwatch button:hover {
+    background: #666;
+}
+  
+/* TODAY'S DATE  */
+
+#date {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #ccc;
+}
+  
